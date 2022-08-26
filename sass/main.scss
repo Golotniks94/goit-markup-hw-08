@@ -1,19 +1,31 @@
-@import './base/reset';
-@import './base/container';
+// Utils
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+@import "./utils/placeholders";
+@import "./utils/mixins";
 
-@import './components/page-header';
-@import './components/logo';
-@import './components/modal';
+// Base
+@import "./base/reset";
+@import "./base/common";
+@import "./base/container";
+@import "./base/card-set";
 
-@import './layout/header';
-@import './layout/hero';
-@import './layout/features';
-@import './layout/work';
-@import './layout/team';
-@import './layout/client';
-@import './layout/footer';
-
-@import './portfolio/portfolio';
-
-@import './utils/hidden';
-@import './utils/variables';
+// Components
+@import "./components/button";
+@import "./components/logo";
+@import "./components/social-link";
+@import "./components/header";
+@import "./components/nav";
+@import "./components/hero";
+@import "./components/section/features";
+@import "./components/section/work";
+@import "./components/section/team";
+@import "./components/section/client";
+@import "./components/footer";
+@import "./components/form/mail-form";
+@import "./components/backdrop";
+@import "./components/order-modal";
+@import "./components/form/order-form";
+@import "./components/mobile-menu";
+@import "./components/portfolio";
+@import "./components/projects";
