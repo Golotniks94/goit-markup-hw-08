@@ -1231,6 +1231,7 @@ body {
           flex-direction: column;
   gap: 32px;
   margin-bottom: 64px;
+  margin-top: 305px;
 }
 
 .mobile-menu__link-tel {
@@ -1348,6 +1349,10 @@ body {
   position: relative;
   overflow: hidden;
 }
+.projects__overlay-box:hover .projects__overlay-box {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
 
 .projects__overlay-txt {
   position: absolute;
@@ -1373,10 +1378,6 @@ body {
           transform: translateY(101%);
   color: var(--primary-white-color);
   background-color: var(--portf-overlay-bgc);
-}
-.projects__overlay-box:hover .projects__overlay-txt {
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
 }
 @media screen and (min-width: 480px) {
   .projects__overlay-txt {

@@ -36,6 +36,10 @@
 .projects__overlay-box {
   position: relative;
   overflow: hidden;
+
+  &:hover & {
+    transform: translateY(0);
+  }
 }
 
 .projects__overlay-txt {
@@ -57,10 +61,6 @@
 
   color: var(--primary-white-color);
   background-color: var(--portf-overlay-bgc);
-
-  .projects__overlay-box:hover & {
-    transform: translateY(0);
-  }
 
   @include mq(mob) {
     font-size: 18px;
