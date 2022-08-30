@@ -27,7 +27,7 @@
   transition: box-shadow var(--duration-timing);
 
   &:hover,
-  &:focus {
+  &:focus-within {
     box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%),
       1px 4px 6px rgb(0 0 0 / 16%);
   }
@@ -75,7 +75,7 @@
   padding-left: 24px;
   padding-right: 24px;
 
-  border: 1px solid var(--portfolio-border-cl);
+  border: 1px solid #eeeeee;
   border-top: 0;
 }
 

@@ -86,7 +86,7 @@
   margin-bottom: 60px;
 
   @include mq(tab) {
-    margin-left: 165px;
+    margin-left: 0px;
   }
 
   @include mq(desk) {
