@@ -324,12 +324,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   gap: 10px;
 }
 
@@ -898,6 +892,7 @@ body {
 }
 
 .footer__join {
+  display: block;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -1300,10 +1295,14 @@ body {
   .portfolio__nav-list {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
-    width: 100%;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .portfolio__nav-list {
     margin-bottom: 50px;
   }
 }
